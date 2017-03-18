@@ -23,3 +23,4 @@ class MyFirstDuskTest extends DuskTestCase
                     ->assertSee('4');
         });
     }
+}
