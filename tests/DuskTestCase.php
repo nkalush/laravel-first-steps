@@ -30,5 +30,6 @@ abstract class DuskTestCase extends BaseTestCase
     {
         return RemoteWebDriver::create(
             env('SELENIUM_URL'), DesiredCapabilities::chrome()
+        );
     }
 }
